@@ -9,8 +9,8 @@ function setup() {
   movingRect.shapeColor = "green";
   movingRect.debug = true;
 
-  movingRect.velocityY = -5;
-  fixedRect.velocityY = +5;
+  movingRect.Y = mouse.Y;
+  movingRect.X = mouse.X;
 }
 
 function draw() {
